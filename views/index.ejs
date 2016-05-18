@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>New York Times API</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/css/style.css" media="screen" charset="utf-8">
+        <%
+			var params = JSON.parse(found),
+			docs = params.response.docs;
+			var month  = parseInt(begin_date.substr(4,2))+1;
+			month = ((month<10) ? "0" : "")+month;
+			var bd = begin_date.substr(0,4)+"-"+month+"-"+begin_date.substr(6,2)
+		 %>
+        <script charset="utf-8">
+            function setFocus(id) {
+                document.getElementById('focus').value = id;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Article search on New York Times</h1>
+            <form id="form" action="" method="get">
+                <input type="hidden" name="focus" value="" id="focus">
+                <label>Search for:
+                    <input type="text" name="q" id="q" value="<%=q%>" class="form-control" placeholder="api" onfocus="setFocus('q')">
+                </label>
+                <label>Begin date
+                    <input type="date" name="begin_date" value="<%= bd %>" class="form-control" onfocus="setFocus('begin_date')"></label>
+                <label>Page:<input type="number" name="page" min="1" max="200" value="<%=page%>" id="page" onchange="form.submit()" onfocus="setFocus('page')"></label>
+            </form>
+
+            <h2>Found
+                <em><%= hits %></em>
+                articles on the search for
+                <mark><%= q %></mark>.
+                <br>Showing page
+                <%= page %>
+            </h2>
+            <ul class="list-unstyled">
+                <% docs.forEach(function(doc){ %>
+                    <% var teaser = doc.lead_paragraph || doc.snippet;
+										published = doc.pub_date
+										 %>
+                    <li class="list-group-item">
+
+                        <h3><%= doc.headline.main %>
+                            <%if (published) { %>
+                                &#160;&#160;<em>(<%= new Date(published).getFullYear() 	%>)</em>
+                            <% } %>
+                        </h3>
+                        <%if (published) { %>
+                            <em><%= new Date(published) 	%></em>
+                        <% } %>
+                        <%if (teaser) { %>
+                            <blockquote class="jumbotron"><%= teaser 	%></blockquote>
+                        <% } %>
+                        <p>
+                            <a class="btn btn-success" href="<%= doc.web_url %>">Read more</a>
+                        </p>
+
+                    </li>
+                <% }); %>
+            </ul>
+            <%if (page>0) { %><% } %>
+
+        </div>
+        <script charset="utf-8">
+            try {
+
+                var focus = location.search.split("focus")[1].split('&')[0].replace('=', '');
+                if (focus) {
+                    document.getElementById(focus).focus();
+                }
+
+            } catch (err) {}
+        </script>
+    </body>
+</html>
