@@ -1,0 +1,336 @@
+{
+    "response": {
+        "meta": {
+            "hits": 12811,
+            "time": 59,
+            "offset": 0
+        },
+        "docs": [{
+            "web_url": "http://topics.nytimes.com/topic/company/api-technologies-corporation",
+            "snippet": "News about API Technologies Corporation , including commentary and archival articles published in The New York Times.",
+            "lead_paragraph": "News about API Technologies Corporation , including commentary and archival articles published in The New York Times.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": null,
+            "multimedia": [],
+            "headline": {
+                "main": "API Nanotronics Corp."
+            },
+            "keywords": [],
+            "pub_date": null,
+            "document_type": "topic",
+            "news_desk": null,
+            "section_name": "Business Day",
+            "subsection_name": null,
+            "byline": null,
+            "type_of_material": "timestopic",
+            "_id": "571f519038f0d86688737497",
+            "word_count": "17",
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://www.nytimes.com/aponline/2016/04/17/us/ap-us-news-media-trust-method.html",
+            "snippet": "The Associated Press-NORC Center for Public Affairs Research and American Press Institute poll on trust in the media was conducted by NORC Feb. 18-March 6. It is based on online and telephone interviews of 2,014 adults who are members of NORC's...",
+            "lead_paragraph": "The Associated Press-NORC Center for Public Affairs Research and American Press Institute poll on trust in the media was conducted by NORC Feb. 18-March 6. It is based on online and telephone interviews of 2,014 adults who are members of NORC's nationally representative AmeriSpeak panel.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "AP",
+            "multimedia": [],
+            "headline": {
+                "main": "How the AP-NORC and API Poll on Trust in Media Was Conducted",
+                "print_headline": "How the AP-NORC and API Poll on Trust in Media Was Conducted"
+            },
+            "keywords": [],
+            "pub_date": "2016-04-17T08:50:33Z",
+            "document_type": "article",
+            "news_desk": "None",
+            "section_name": "U.S.",
+            "subsection_name": null,
+            "byline": {
+                "person": [],
+                "original": "By THE ASSOCIATED PRESS",
+                "organization": "THE ASSOCIATED PRESS"
+            },
+            "type_of_material": "News",
+            "_id": "5713878f38f0d8074d2b3f04",
+            "word_count": "210",
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://query.nytimes.com/gst/abstract.html?res=9405E7D8103CE53BBC4E51DFB767838D679EDE",
+            "snippet": "API Instruments, Inc., said yesterday in Cleveland that it would make selective price increases on certain panel meters and meter-relays. The rises will range between 3 and 15 per cent and will take effect Dec. 15.",
+            "lead_paragraph": "API Instruments, Inc., said yesterday in Cleveland that it would make selective price increases on certain panel meters and meter-relays. The rises will range between 3 and 15 per cent and will take effect Dec. 15.",
+            "abstract": "Raises panel meters and meter-relays prices",
+            "print_page": "54",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "METER PRICE RAISED BY API INSTRUMENTS"
+            },
+            "keywords": [{
+                "name": "organizations",
+                "value": "API INSTRUMENTS INC."
+            }],
+            "pub_date": "1966-11-26T00:00:00Z",
+            "document_type": "article",
+            "news_desk": null,
+            "section_name": null,
+            "subsection_name": null,
+            "byline": null,
+            "type_of_material": "Article",
+            "_id": "4fc4279a45c1498b0d952fbe",
+            "word_count": 120,
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://open.blogs.nytimes.com/2010/11/29/campaign-finance-api-updates/",
+            "snippet": "We've made a few tweaks and additions to the Campaign Finance API.",
+            "lead_paragraph": "We've made a few tweaks and additions to the Campaign Finance API:",
+            "abstract": "We've made a few tweaks and additions to the Campaign Finance API.",
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Campaign Finance API Updates",
+                "kicker": "Open"
+            },
+            "keywords": [{
+                "rank": "1",
+                "name": "type_of_material",
+                "value": "News"
+            }],
+            "pub_date": "2010-11-29T17:23:20Z",
+            "document_type": "blogpost",
+            "news_desk": null,
+            "section_name": "Open",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Marci",
+                    "rank": 1,
+                    "lastname": "WINDSHEIMER"
+                }],
+                "original": "By MARCI WINDSHEIMER"
+            },
+            "type_of_material": "Blog",
+            "_id": "4fd39cda8eb7c8105d8dd682",
+            "word_count": 87,
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://open.blogs.nytimes.com/2008/10/21/announcing-the-timestags-api/",
+            "snippet": "Today we’re releasing the TimesTags API, which is the gateway to a lush garden of Times metadata.",
+            "lead_paragraph": null,
+            "abstract": "Today we’re releasing the TimesTags API, which is the gateway to a lush garden of Times metadata.",
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Announcing the TimesTags API",
+                "kicker": "Open"
+            },
+            "keywords": [],
+            "pub_date": "2008-10-21T17:39:26Z",
+            "document_type": "blogpost",
+            "news_desk": null,
+            "section_name": "Open",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "rank": 1,
+                    "firstname": "Marci",
+                    "lastname": "WINDSHEIMER"
+                }],
+                "original": "By MARCI WINDSHEIMER"
+            },
+            "type_of_material": "Blog",
+            "_id": "4fd392ad8eb7c8105d8c5602",
+            "word_count": "528",
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://open.blogs.nytimes.com/2011/12/16/introducing-the-events-api/",
+            "snippet": "At our annual Hack Day we made the Event Listings API, used by the interactive guide, publicly available to the developer community on the NYTimes Developer Network.",
+            "lead_paragraph": null,
+            "abstract": "At our annual <a href=\"http://open.blogs.nytimes.com/2011/12/06/recapping-timesopen-hack-day/\">Hack Day</a> we made the Event Listings API, used by the interactive guide, publicly available to the developer community on the <a href=\"http://developer.nytimes.com\">NYTimes Developer Network</a>.",
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Introducing the Events API",
+                "kicker": "Open"
+            },
+            "keywords": [],
+            "pub_date": "2011-12-16T12:04:05Z",
+            "document_type": "blogpost",
+            "news_desk": null,
+            "section_name": "Open",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "rank": 1,
+                    "firstname": "Brian",
+                    "lastname": "BALSER"
+                }],
+                "original": "By BRIAN BALSER"
+            },
+            "type_of_material": "Blog",
+            "_id": "4fd3a2848eb7c8105d8ea8c4",
+            "word_count": "219",
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://open.blogs.nytimes.com/2010/01/12/article-search-api-enhancements/",
+            "snippet": "The Times Article Search API already had a rich set of data attributes, but we couldn’t resist adding a few more.",
+            "lead_paragraph": null,
+            "abstract": "The Times Article Search API already had a rich set of data attributes, but we couldn’t resist adding a few more.",
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Article Search API Enhancements",
+                "kicker": "Open"
+            },
+            "keywords": [],
+            "pub_date": "2010-01-12T16:53:50Z",
+            "document_type": "blogpost",
+            "news_desk": null,
+            "section_name": "Open",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "rank": 1,
+                    "firstname": "Derek",
+                    "lastname": "GOTTFRID"
+                }],
+                "original": "By DEREK GOTTFRID"
+            },
+            "type_of_material": "Blog",
+            "_id": "4fd399728eb7c8105d8d54df",
+            "word_count": "657",
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://open.blogs.nytimes.com/2009/02/04/announcing-the-article-search-api/",
+            "snippet": "We are pleased to announce the initial release of The New York Times Article Search API.",
+            "lead_paragraph": "Finally! We are pleased to announce the initial release of the New York Times Article Search API. Articles are the basic building blocks of The New York Times. As a child, I was often reprimanded for (among other things) not sharing my blocks - well, today, I am happy to share.",
+            "abstract": "We are pleased to announce the initial release of The New York Times Article Search API.",
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Announcing the Article Search API",
+                "kicker": "Open"
+            },
+            "keywords": [{
+                "rank": "1",
+                "name": "type_of_material",
+                "value": "News"
+            }],
+            "pub_date": "2009-02-04T15:01:13Z",
+            "document_type": "blogpost",
+            "news_desk": null,
+            "section_name": "Open",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Derek",
+                    "rank": 1,
+                    "lastname": "GOTTFRID"
+                }],
+                "original": "By DEREK GOTTFRID"
+            },
+            "type_of_material": "Blog",
+            "_id": "4fd394228eb7c8105d8c8c0c",
+            "word_count": 367,
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://open.blogs.nytimes.com/2010/07/01/introducing-the-districts-api/",
+            "snippet": "Now that we're building the next version of Represent, it's a good time to unbundle some of the original application into reusable parts -- such as the new Districts API.",
+            "lead_paragraph": "When we first built Represent, a prototype application that helped identify and track elected officials from New York City, it made extensive use of two of our other APIs (Congress and New York State Legislature). But the part that actually takes a point on a map and finds the political districts that contain that point was baked into Represent, making that functionality difficult to use outside of the application.",
+            "abstract": "Now that we're building the next version of Represent, it's a good time to unbundle some of the original application into reusable parts -- such as the new Districts API.",
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Introducing the Districts API",
+                "kicker": "Open"
+            },
+            "keywords": [{
+                "rank": "1",
+                "name": "type_of_material",
+                "value": "News"
+            }],
+            "pub_date": "2010-07-01T11:58:23Z",
+            "document_type": "blogpost",
+            "news_desk": null,
+            "section_name": "Open",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Derek",
+                    "rank": 1,
+                    "lastname": "WILLIS"
+                }],
+                "original": "By DEREK WILLIS"
+            },
+            "type_of_material": "Blog",
+            "_id": "4fd39bf88eb7c8105d8db33a",
+            "word_count": 403,
+            "slideshow_credits": null
+        }, {
+            "web_url": "http://open.blogs.nytimes.com/2011/02/10/updates-to-the-campaign-finance-api/",
+            "snippet": "Political campaigns don’t have an off-season, but the brief lull between last November’s general election and now has given us time to make some updates to our Campaign Finance API.",
+            "lead_paragraph": null,
+            "abstract": "Political campaigns don’t have an off-season, but the brief lull between last November’s general election and now has given us time to make some updates to our Campaign Finance API.",
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [],
+            "headline": {
+                "main": "Updates to the Campaign Finance API",
+                "kicker": "Open"
+            },
+            "keywords": [{
+                "value": "Campaign Finance",
+                "name": "subject",
+                "rank": "1"
+            }],
+            "pub_date": "2011-02-10T14:11:56Z",
+            "document_type": "blogpost",
+            "news_desk": null,
+            "section_name": "Open",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "rank": 1,
+                    "firstname": "Derek",
+                    "lastname": "WILLIS"
+                }],
+                "original": "By DEREK WILLIS"
+            },
+            "type_of_material": "Blog",
+            "_id": "4fd39ead8eb7c8105d8e1a1d",
+            "word_count": "740",
+            "slideshow_credits": null
+        }]
+    },
+    "status": "OK",
+    "copyright": "Copyright (c) 2013 The New York Times Company.  All Rights Reserved."
+}
